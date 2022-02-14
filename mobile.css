@@ -1,0 +1,42 @@
+@media screen and (max-width: 420px) {
+    body{
+        font-size: 2em;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.central,
+    #lezioni .row>.right {
+        display: block;
+        background-color: rgba(242,242,205,255);
+        margin: 0px;
+        width: 100%;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        display: block;
+        margin: 0px;
+        width: 100%;
+        background-color: white;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        background-color: rgba(242,242,205,255);
+        margin: 0px;
+    }
+
+    .row{
+        margin: 10px 0px;
+    }
+
+    .row> h1{
+        background-color: rgba(242,242,205,255);
+        margin: 0px;
+    }
+
+    #steps .row> h1{
+        background-color: white;
+    }
+}
